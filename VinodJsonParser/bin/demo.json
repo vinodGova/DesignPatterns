@@ -1,0 +1,13 @@
+{
+"name":"John",
+"age":30,
+"src": "Images/Sun.png",
+"name2": "sun1",
+"hOffset": 250,
+"vOffset": 250,
+"alignment": "center",
+"cars":[ "Ford", "BMW", "Fiat" ]
+}
+
+
+
