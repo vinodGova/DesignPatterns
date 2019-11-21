@@ -13,14 +13,14 @@ public class StreamingApi {
 		}
 		
 	
-		//sequential order in collection api implements Sream(I) and ParallelSream
-		/*Stream<Integer> Sequential=myList.stream();
+		//sequential order in collection API implements Stream(I) and ParallelSream
+		Stream<Integer> Sequential=myList.stream();
 		Stream<Integer> heighNumbers=Sequential.filter(p->p>20);
 		heighNumbers.forEach(p->
-		{System.out.println(p);});*/
+		{System.out.println(p);});
 			
 
-		//Parllel order
+		//Parallel order
 		Stream<Integer> parlleel=myList.parallelStream();
 		Stream<Integer> heighNo=parlleel.filter(p->p>20);
 		heighNo.forEach(p->{System.out.println(p);});
@@ -28,7 +28,7 @@ public class StreamingApi {
 		
 		
 		//in Single Line
-		//myList.stream().filter(p->p>20).forEach(p->{System.out.println(p);});;
+		myList.stream().filter(p->p>20).forEach(p->{System.out.println(p);});;
 		
 		
 		
