@@ -30,7 +30,7 @@ public class Java1_8 {
 
 			@Override
 			public void accept(String t) {
-				System.out.println("with using forEach  "+t);
+				System.out.println("with using foreach"+t);
 				
 			}
 		});
